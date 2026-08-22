@@ -152,7 +152,7 @@ For v1:
 | [`MASTER_PROMPT.md`](./MASTER_PROMPT.md) | Full product and architecture brief used to start/guide agent work |
 | [`AGENTS.md`](./AGENTS.md) | Durable rules that coding agents should keep in context |
 | [`IMPLEMENTATION_PLAN.md`](./IMPLEMENTATION_PLAN.md) | Milestone-by-milestone implementation checklist |
-| [`docs/PROJECT_REFERENCE.docx`](./docs/PROJECT_REFERENCE.docx) | Consolidated project decisions and reference document |
+| [`docs/PROJECT_REFERENCE.md`](./docs/PROJECT_REFERENCE.md) | Consolidated project decisions and reference document |
 
 ## Implementation roadmap
 
