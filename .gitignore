@@ -1,0 +1,14 @@
+node_modules/
+build/
+.react-router/
+playwright-report/
+test-results/
+coverage/
+.netlify/
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+*.log

@@ -196,6 +196,28 @@ Recipe URL import, family invitation UX, deeper PWA polish, and system-admin too
 - Add tests for domain logic and critical user journeys.
 - Review significant architectural changes before implementing them.
 
+## Local development
+
+This project requires Node.js 24 or newer.
+
+```bash
+npm install
+npm run dev
+```
+
+Foundation quality checks:
+
+```bash
+npm run typecheck
+npm run lint
+npm run format:check
+npm test
+npm run test:e2e
+npm run build
+```
+
+Copy `.env.example` to `.env` only when a milestone requires server secrets. Variables without a `VITE_` prefix remain server-only; no secret should be exposed through a browser-prefixed variable.
+
 ## Agent setup
 
 The project is intended to work well with OpenCode and GPT-based models.
