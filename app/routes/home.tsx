@@ -38,7 +38,9 @@ export function FoundationScreen({ serverReady }: { serverReady: boolean }) {
       >
         <div className="intro-copy">
           <p className="eyebrow">The table is being set</p>
-          <h1 id="foundation-title">Plan the week. Shop once. Eat well.</h1>
+          <h1 id="foundation-title">
+            Plan the week. Shop once. <em>Eat well.</em>
+          </h1>
           <p className="intro-text">
             A focused home for weekly meals, reusable recipes, and a shopping
             list that stays useful after you edit it.
