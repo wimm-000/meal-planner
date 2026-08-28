@@ -31,20 +31,20 @@ Use this together with:
 
 ## Repository and application setup
 
-- [ ] Create the React Router 7 project in **Framework Mode**
-- [ ] Enable TypeScript strict mode
-- [ ] Configure Vite
-- [ ] Install and configure Tailwind CSS
-- [ ] Configure project aliases/import conventions
-- [ ] Define initial folder/module structure
-- [ ] Add `.env.example`
-- [ ] Ensure secrets are never exposed to the browser
-- [ ] Add basic error boundary structure
+- [x] Create the React Router 7 project in **Framework Mode**
+- [x] Enable TypeScript strict mode
+- [x] Configure Vite
+- [x] Install and configure Tailwind CSS
+- [x] Configure project aliases/import conventions
+- [x] Define initial folder/module structure
+- [x] Add `.env.example`
+- [x] Ensure secrets are never exposed to the browser
+- [x] Add basic error boundary structure
 - [ ] Add basic loading/pending-state conventions
 
 ## Netlify
 
-- [ ] Configure the project for Netlify deployment
+- [x] Configure the project for Netlify deployment
 - [ ] Verify React Router server execution on Netlify
 - [ ] Define required environment variables
 - [ ] Create a minimal deployment early
@@ -52,24 +52,24 @@ Use this together with:
 
 ## Quality tooling
 
-- [ ] Configure linting
-- [ ] Configure formatting
-- [ ] Configure type-check command
-- [ ] Configure Vitest
-- [ ] Configure React Testing Library
-- [ ] Configure Playwright
+- [x] Configure linting
+- [x] Configure formatting
+- [x] Configure type-check command
+- [x] Configure Vitest
+- [x] Configure React Testing Library
+- [x] Configure Playwright
 - [ ] Add standard project commands for:
-  - [ ] dev
-  - [ ] build
-  - [ ] typecheck
-  - [ ] lint
-  - [ ] test
-  - [ ] test:e2e
+  - [x] dev
+  - [x] build
+  - [x] typecheck
+  - [x] lint
+  - [x] test
+  - [x] test:e2e
 
 ## Agent setup
 
-- [ ] Add `AGENTS.md`
-- [ ] Add `MASTER_PROMPT.md`
+- [x] Add `AGENTS.md`
+- [x] Add `MASTER_PROMPT.md`
 - [x] Add project-local skills directory
 - [x] Add `react-router-7-framework` skill
 - [x] Add `meal-planner-architecture` skill
@@ -80,12 +80,12 @@ Use this together with:
 
 ## Definition of done
 
-- [ ] App runs locally
-- [ ] App builds successfully
+- [x] App runs locally
+- [x] App builds successfully
 - [ ] App deploys successfully to Netlify
-- [ ] Type checking passes
-- [ ] Test infrastructure is working
-- [ ] Agent/project instructions are committed
+- [x] Type checking passes
+- [x] Test infrastructure is working
+- [x] Agent/project instructions are committed
 
 ---
 
@@ -95,18 +95,18 @@ This milestone establishes the security and tenancy model before any meal-planni
 
 ## Turso + Drizzle
 
-- [ ] Create Turso database
-- [ ] Configure database connection
-- [ ] Configure Drizzle ORM
-- [ ] Configure Drizzle migrations
-- [ ] Establish migration workflow
+- [x] Create Turso database
+- [x] Configure database connection
+- [x] Configure Drizzle ORM
+- [x] Configure Drizzle migrations
+- [x] Establish migration workflow
 - [ ] Verify migrations locally and against Turso
 
 ## Better Auth
 
-- [ ] Install Better Auth
-- [ ] Configure Better Auth with the chosen authentication method(s)
-- [ ] Add Better Auth database tables
+- [x] Install Better Auth
+- [x] Configure Better Auth with the chosen authentication method(s)
+- [x] Add Better Auth database tables
 - [ ] Integrate session handling with React Router
 - [ ] Create login flow
 - [ ] Create signup flow
@@ -123,18 +123,18 @@ This milestone establishes the security and tenancy model before any meal-planni
 
 ## Spaces
 
-- [ ] Add `Space` table
-- [ ] Add Space type:
-  - [ ] `personal`
-  - [ ] `family`
-- [ ] Add `SpaceMember` table
-- [ ] Add membership roles:
-  - [ ] `owner`
-  - [ ] `admin`
-  - [ ] `member`
-- [ ] Add unique constraint for `(spaceId, userId)`
-- [ ] Add appropriate indexes
-- [ ] Define deletion/cascade rules
+- [x] Add `Space` table
+- [x] Add Space type:
+  - [x] `personal`
+  - [x] `family`
+- [x] Add `SpaceMember` table
+- [x] Add membership roles:
+  - [x] `owner`
+  - [x] `admin`
+  - [x] `member`
+- [x] Add unique constraint for `(spaceId, userId)`
+- [x] Add appropriate indexes
+- [x] Define deletion/cascade rules
 
 ## Personal Space provisioning
 
