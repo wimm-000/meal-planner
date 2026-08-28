@@ -1,0 +1,49 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - link "Weekly Meal Planner home" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e5]: Weekly Meal Planner
+    - generic [ref=e6]: Foundation
+  - region [ref=e7]:
+    - generic [ref=e8]:
+      - paragraph [ref=e9]: The table is being set
+      - heading [level=1] [ref=e10]:
+        - text: Plan the week. Shop once.
+        - emphasis [ref=e11]: Eat well.
+      - paragraph [ref=e12]: A focused home for weekly meals, reusable recipes, and a shopping list that stays useful after you edit it.
+    - generic "Weekly planner preview" [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]: This week
+          - strong [ref=e17]: August 24–30
+        - generic [ref=e18]: Ready for planning
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - heading "Monday" [level=2] [ref=e22]
+          - list [ref=e23]:
+            - listitem [ref=e24]: Breakfast
+            - listitem [ref=e26]: Lentil salad
+            - listitem [ref=e28]: Chicken curry
+        - generic [ref=e30]:
+          - heading "Tuesday" [level=2] [ref=e31]
+          - list [ref=e32]:
+            - listitem [ref=e33]: Overnight oats
+            - listitem [ref=e35]: Lunch
+            - listitem [ref=e37]: Salmon bowl
+        - generic [ref=e39]:
+          - heading "Wednesday" [level=2] [ref=e40]
+          - list [ref=e41]:
+            - listitem [ref=e42]: Breakfast
+            - listitem [ref=e44]: Tomato toast
+            - listitem [ref=e46]: Dinner
+    - generic "Foundation status" [ref=e48]:
+      - generic [ref=e49]:
+        - term [ref=e50]: Framework
+        - definition [ref=e51]: React Router 7
+      - generic [ref=e52]:
+        - term [ref=e53]: Deployment
+        - definition [ref=e54]: Netlify serverless
+      - generic [ref=e55]:
+        - term [ref=e56]: Server rendering
+        - definition [ref=e57]: Ready
+    - paragraph [ref=e58]: Product features begin after this foundation checkpoint is reviewed.

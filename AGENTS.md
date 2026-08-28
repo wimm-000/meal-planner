@@ -201,6 +201,13 @@ When implementing:
 
 Do not race through multiple major roadmap items in one task unless explicitly requested.
 
+## Session Handoff
+
+- At the start of a new session, read `docs/CURRENT_STATUS.md` before selecting the next roadmap task.
+- At the end of a meaningful work session, update `docs/CURRENT_STATUS.md` with the current milestone, completed work, verification results, important decisions, open work, and one recommended next task.
+- Keep the handoff as a concise snapshot of current state rather than an append-only log. Git history preserves previous versions.
+- Confirm the handoff against `git status`, recent commits, and the relevant section of `IMPLEMENTATION_PLAN.md`.
+
 ## Important
 
 Before making a significant architectural change, explain the reason and trade-offs first.

@@ -1,0 +1,389 @@
+- generic [active] [ref=f2e1]:
+  - generic:
+    - generic:
+      - link "Saltar al contenido principal" [ref=f2e754] [cursor=pointer]
+      - link "Ayuda sobre la accesibilidad" [ref=f2e755] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=es
+  - generic [ref=f2e53]:
+    - search [ref=f2e54]:
+      - generic [ref=f2e56]:
+        - link "Ir a la página principal de Google" [ref=f2e756] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQPAho
+        - generic [ref=f2e66]:
+          - generic [ref=f2e67]:
+            - combobox "Buscar" [ref=f2e757]: Netlify "hud?variant=public" disable Netlify "hud?variant=public" disable
+            - generic [ref=f2e71]:
+              - button "Borrar" [ref=f2e758] [cursor=pointer]
+              - generic [ref=f2e78]:
+                - button "Búsqueda por voz" [ref=f2e759] [cursor=pointer]
+                - button "Búsqueda por imágenes" [ref=f2e760] [cursor=pointer]
+          - button "Buscar" [ref=f2e761] [cursor=pointer]
+    - generic [ref=f2e90]:
+      - button "Configuración" [ref=f2e762] [cursor=pointer]
+      - button "Compartir" [ref=f2e768] [cursor=pointer]
+      - generic [ref=f2e99]:
+        - button "Aplicaciones de Google" [ref=f2e769] [cursor=pointer]
+        - link "Iniciar sesión" [ref=f2e770] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/search%3Fq%3DNetlify%2B%2522hud%253Fvariant%253Dpublic%2522%2Bdisable%26sei%3D2w-QauPnCq_Dp84PqL_vmQY&ec=futura_srp_og_si_72236_p
+  - generic [ref=f2e108]:
+    - navigation [ref=f2e114]:
+      - generic [ref=f2e116]:
+        - list [ref=f2e117]:
+          - listitem [ref=f2e118]:
+            - link "Modo IA" [ref=f2e775] [cursor=pointer]:
+              - /url: /search?q=Netlify+hud%3Fvariant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&udm=50&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjoIIcbybKOlu-XayKFxGR6X0lAGjGDXYdDECAOKfzth6px14z9X7t2lGsHnuNFW7eWrCNaU1rZRmMEhfcDbJ_txaiP-z&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ2J8OegQIFRAD
+          - listitem [ref=f2e125]:
+            - link "Todo" [disabled] [ref=f2e776]
+          - listitem [ref=f2e129]:
+            - link "Imágenes" [ref=f2e777] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&udm=2&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjoIIcbybKOlu-XayKFxGR6X0lAGjGDXYdDECAOKfzth6px14z9X7t2lGsHnuNFW7eWrCNaU1rZRmMEhfcDbJ_txaiP-z&q=Netlify+hud%3Fvariant%3Dpublic+disable&sa=X&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQtKgLegQIHBAB
+          - listitem [ref=f2e133]:
+            - link "Vídeos" [ref=f2e778] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&udm=7&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjoIIcbybKOlu-XayKFxGR6X0lAGjGDXYdDECAOKfzth6px14z9X7t2lGsHnuNFW7eWrCNaU1rZRmMEhfcDbJ_txaiP-z&q=Netlify+hud%3Fvariant%3Dpublic+disable&sa=X&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQtKgLegQIGxAB
+          - listitem [ref=f2e137]:
+            - link "Vídeos cortos" [ref=f2e779] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&udm=39&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjoIIcbybKOlu-XayKFxGR6X0lAGjGDXYdDECAOKfzth6px14z9X7t2lGsHnuNFW7eWrCNaU1rZRmMEhfcDbJ_txaiP-z&q=Netlify+hud%3Fvariant%3Dpublic+disable&sa=X&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQs6gLegQIGhAB
+          - listitem [ref=f2e141]:
+            - link "Noticias" [ref=f2e780] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&q=Netlify+hud%3Fvariant%3Dpublic+disable&tbm=nws&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjoIIcbybKOlu-XayKFxGR6X0lAGjGDXYdDECAOKfzth6px14z9X7t2lGsHnuNFW7eWrCNaU1rZRmMEhfcDbJ_txaiP-z&sa=X&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ0pQJegQIGRAB
+          - listitem [ref=f2e145]:
+            - link "Web" [ref=f2e781] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&udm=web&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjoIIcbybKOlu-XayKFxGR6X0lAGjGDXYdDECAOKfzth6px14z9X7t2lGsHnuNFW7eWrCNaU1rZRmMEhfcDbJ_txaiP-z&q=Netlify+hud%3Fvariant%3Dpublic+disable&sa=X&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQs6gLegQIGBAB
+          - listitem [ref=f2e149]:
+            - button [ref=f2e782] [cursor=pointer]:
+              - generic "Más filtros" [ref=f2e783]: Más
+        - button "Herramientas" [ref=f2e785] [cursor=pointer]
+    - heading "Resultados de la búsqueda" [level=1] [ref=f2e792]
+    - generic [ref=f2e162]:
+      - generic [ref=f2e596]:
+        - generic [ref=f2e598]:
+          - generic [ref=f2e600]:
+            - heading "Vista creada con IA" [level=2] [ref=f2e793]
+            - button "Acerca de este resultado" [ref=f2e794]
+          - generic [ref=f2e631]:
+            - generic [ref=f2e634]:
+              - generic [ref=f2e635]:
+                - text: You can hide the Netlify Heads-up Display (HUD) or feedback drawer by using the keyboard shortcut
+                - code [ref=f2e636]: ⌘\
+                - text: on Mac or
+                - code [ref=f2e637]: ^\
+                - text: on Windows and Linux.
+                - generic [ref=f2e639]:
+                  - link "Netlify Docs - Heads-up Display | Netlify Docs. Resultados relacionados" [ref=f2e795] [cursor=pointer]:
+                    - /url: /goto?url=CAESYwHrOzAVEVNQaStK-C6XtJW9X-pCKhEyvbPBR_7AOdm3zIuKaxPSUBpuiLXHoLAa9RNQCZHG7ZDEep0vYHSGClT3fHgt0L7MWAwxvIViqzytQmVaRNms3kGuLmoVFkfDPMpLAw
+                  - button "Netlify Docs - Heads-up Display | Netlify Docs. Resultados relacionados" [ref=f2e796] [cursor=pointer]:
+                    - generic [ref=f2e642]: Netlify Docs
+              - heading "How to Disable or Hide the HUD" [level=3] [ref=f2e797]
+              - list [ref=f2e650]:
+                - listitem [ref=f2e652]:
+                  - generic [ref=f2e653]:
+                    - strong [ref=f2e654]: "Keyboard Shortcut:"
+                    - text: Press
+                    - code [ref=f2e655]: ⌘\
+                    - text: (Mac) or
+                    - code [ref=f2e656]: ^\
+                    - text: (PC) while viewing the site to toggle the HUD on or off.
+                - listitem [ref=f2e658]:
+                  - generic [ref=f2e659]:
+                    - strong [ref=f2e660]: "Change Project Visibility:"
+                    - text: The Netlify pre-launch toolbar and HUD features only display while a project's visibility is set to private. Changing your project state to
+                    - strong [ref=f2e661]: Public
+                    - text: in your site settings will hide the overlay for external visitors.
+                - listitem [ref=f2e663]:
+                  - generic [ref=f2e664]:
+                    - strong [ref=f2e665]: "URL Parameter:"
+                    - text: For automated testing or specific preview sharing where the drawer interferes, you can append
+                    - code [ref=f2e666]: "?ntl-drawer-state=hidden"
+                    - text: to the URL.
+                  - generic [ref=f2e668]:
+                    - link [ref=f2e669] [cursor=pointer]:
+                      - /url: /goto?url=CAESXwHrOzAVqFbTYTixnV8S4Vi1evKjilOVmY_7M3TSSE8qJaGKy45rabbPwSWq8oILDI9cvgZh5zpJFy_PDdFXZSJ6GpPM05nHEAT9W8s7nTKETXaC_ITECfmb6vSppUNc
+                    - button [ref=f2e670] [cursor=pointer]:
+                      - generic [ref=f2e672]:
+                        - generic [ref=f2e673]: Netlify Docs
+                        - generic [ref=f2e674]: "+2"
+              - generic [ref=f2e681]:
+                - text: If you want to disable it permanently for a specific build or preview environment, let me know if you are trying to hide the
+                - strong [ref=f2e682]: Netlify Drawer
+                - text: ","
+                - strong [ref=f2e683]: feedback widget
+                - text: ", or"
+                - strong [ref=f2e684]: pre-launch toolbar
+                - text: .
+            - generic [ref=f2e689]:
+              - list [ref=f2e691]:
+                - listitem [ref=f2e692]:
+                  - generic [ref=f2e693]:
+                    - link "Disable branch-deploy preview - Netlify Support Forums. Se abre en una nueva pestaña." [ref=f2e798] [cursor=pointer]:
+                      - /url: /goto?url=CAESZQHrOzAV4D8YUx0dRJwbNT2CtGW207wlTt8HEDC1NQRYEeDOP0dRQ0z73WDQfQIN33iss2ktg_ent1ik6W1gmyYh3Xz55kN8uph-akBtpwxCZPWoRmyT1OEk48YDJ5o38vfa49In
+                    - generic [ref=f2e695]:
+                      - generic [ref=f2e696]:
+                        - generic [ref=f2e699]: Netlify Support Forums
+                        - button "Acerca de este resultado" [ref=f2e799] [cursor=pointer]
+                      - generic [ref=f2e711]:
+                        - generic [ref=f2e712]: Disable branch-deploy preview - Netlify Support Forums
+                        - generic [ref=f2e713]: 19 oct 2023 — Hi All, Is it possible to disable deploy-previews for branches? I already disabled deploy for the main/production branch (previews...
+                - listitem [ref=f2e717]:
+                  - generic [ref=f2e718]:
+                    - link "Troubleshoot the Netlify Drawer. Se abre en una nueva pestaña." [ref=f2e800] [cursor=pointer]:
+                      - /url: /goto?url=CAESjgEB6zswFRBugJ3w0GTCD8IFjD-B0LJZQTP81b3ogGTQKCbXKBUJTk-j1-cD9uBqrLD5mzfWZTi8P5uOPhak64W-0SfpGxsPUP5gs9btfqI-U_tJmPAbbxSL3Tf95sn-RLq-R-TTRt-wtNbqDvF87TAvShnskYOWxvcOwDRKSu9Ad03enP8Ml5iIuGfC457H
+                    - generic [ref=f2e720]:
+                      - generic [ref=f2e721]:
+                        - generic [ref=f2e724]: Netlify Docs
+                        - button "Acerca de este resultado" [ref=f2e801] [cursor=pointer]
+                      - generic [ref=f2e736]:
+                        - generic [ref=f2e737]: Troubleshoot the Netlify Drawer
+                        - generic [ref=f2e738]: 14 jul 2025 — If the Netlify Drawer is hiding important UI elements, you can move the drawer around the window or minimize the drawer. Netlify D...
+              - button [ref=f2e741] [cursor=pointer]:
+                - generic [ref=f2e742]: Mostrar todo
+        - button "Vista creada con IA de Mostrar más" [ref=f2e802]:
+          - generic [ref=f2e747] [cursor=pointer]: Mostrar más
+      - main [ref=f2e190]:
+        - generic [ref=f2e191]:
+          - generic [ref=f2e195]:
+            - heading "No se ha encontrado ningún resultado para Netlify \"hud?variant=public\" disable." [level=2] [ref=f2e803]
+            - text: Resultados de
+            - link "Netlify hud?variant=public disable" [ref=f2e804] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&q=Netlify+hud?variant%3Dpublic+disable&sa=X&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQgwN6BAgUEAE
+            - text: "(sin comillas):"
+          - generic [ref=f2e200]:
+            - generic [ref=f2e203]:
+              - heading "Web results" [level=2] [ref=f2e805]
+              - generic [ref=f2e205]:
+                - generic [ref=f2e208]:
+                  - link "Disable project | Netlify Docs Netlify Docs https://docs.netlify.com › projects" [ref=f2e806] [cursor=pointer]:
+                    - /url: /goto?url=CAEScQHrOzAVb-Ev9g8DafHSMQkiPtwu1xHbX2uSZVmhp8imh3rEYQ3RKKpRUJcz4FJcIhd25inmnUe5CIVSj7iITXhVdsUfGqRunSfgn1L7oCcPDQjjcCvztcr9QheMQ5iYHtdhRni_RzxTJ882s937vert
+                    - heading "Disable project | Netlify Docs" [level=3] [ref=f2e807]
+                    - generic [ref=f2e217]:
+                      - generic [ref=f2e218]: Netlify Docs
+                      - generic [ref=f2e220]: https://docs.netlify.com › projects
+                  - generic [ref=f2e222]:
+                    - generic [ref=f2e223]: ·
+                    - link "Traducir esta página" [ref=f2e808] [cursor=pointer]:
+                      - /url: https://docs.netlify.com/manage/projects/disable-project/
+                  - button "Acerca de este resultado" [ref=f2e809] [cursor=pointer]
+                - generic [ref=f2e235]:
+                  - generic [ref=f2e236]: 9 jun 2026 —
+                  - generic [ref=f2e237]:
+                    - text: "As an Owner, to disable a project:"
+                    - emphasis [ref=f2e238]: Go to Project configuration > General > Danger zone and select Disable project
+                    - text: . Netlify UI location of ...
+                - generic [ref=f2e239]: "Falta: hud? ‎variant="
+            - generic [ref=f2e244]:
+              - generic [ref=f2e247]:
+                - link "Project visibility | Netlify Docs Netlify Docs https://docs.netlify.com › security" [ref=f2e810] [cursor=pointer]:
+                  - /url: /goto?url=CAESiwEB6zswFS6PWzB6yh68MrekwohwGLEUE6vvErW9nkYPU70Z3mVGwAbJI0YLxi6M3RcuEg78dVS1Ox6RlfoaZYshxM_FijKrtqvIEZ-KT8IuBjD2452Bu4AaqOmvXcQPcbn6hmyxZsx9Mr9zhZd3QCQr4D4hjAQ2D_rEz2oRKSlyBDFBbpuuBD6WnAek
+                  - heading "Project visibility | Netlify Docs" [level=3] [ref=f2e811]
+                  - generic [ref=f2e256]:
+                    - generic [ref=f2e257]: Netlify Docs
+                    - generic [ref=f2e259]: https://docs.netlify.com › security
+                - generic [ref=f2e261]:
+                  - generic [ref=f2e262]: ·
+                  - link "Traducir esta página" [ref=f2e812] [cursor=pointer]:
+                    - /url: https://docs.netlify.com/manage/security/secure-access-to-sites/project-visibility/
+                - button "Acerca de este resultado" [ref=f2e813] [cursor=pointer]
+              - generic [ref=f2e274]:
+                - generic [ref=f2e275]: 19 ago 2026 —
+                - generic [ref=f2e276]:
+                  - text: Control whether a project is
+                  - emphasis [ref=f2e277]: public
+                  - text: or private. Set defaults for your team and change the setting at any time.
+              - generic [ref=f2e278]: "Falta: hud? ‎variant="
+            - generic [ref=f2e283]:
+              - generic [ref=f2e286]:
+                - link "Disable branch-deploy preview Netlify Support Forums https://answers.netlify.com › disa..." [ref=f2e814] [cursor=pointer]:
+                  - /url: /goto?url=CAESegHrOzAVx6f2xXUAoviLYdH0L1rBKibiX00F6lSP6m94IN1vJitr8aMgZXx4iPNDYBzvjmNdUsoJVEg0wJc7J7gY3wbgnJcdPJRHh9jzVkhjDfTNYSHWPNBzg4Lg9SLAx_DQlTI03XI5zP2dO9BrVzrJpED7zrqFXj0D
+                  - heading "Disable branch-deploy preview" [level=3] [ref=f2e815]
+                  - generic [ref=f2e295]:
+                    - generic [ref=f2e296]: Netlify Support Forums
+                    - generic [ref=f2e298]: https://answers.netlify.com › disa...
+                - generic [ref=f2e300]:
+                  - generic [ref=f2e301]: ·
+                  - link "Traducir esta página" [ref=f2e816] [cursor=pointer]:
+                    - /url: https://answers.netlify.com/t/disable-branch-deploy-preview/104791
+                - button "Acerca de este resultado" [ref=f2e817] [cursor=pointer]
+              - generic [ref=f2e313]:
+                - generic [ref=f2e314]: 19 oct 2023 —
+                - generic [ref=f2e315]:
+                  - text: Hi All, Is it possible to
+                  - emphasis [ref=f2e316]: disable
+                  - text: deploy-previews for branches? I already
+                  - emphasis [ref=f2e317]: disabled
+                  - text: deploy for the main/production branch (previews are are ...
+              - generic [ref=f2e318]: "Falta: hud? ‎variant= ‎public"
+            - generic [ref=f2e323]:
+              - generic [ref=f2e326]:
+                - link "New Netlify projects are now private by default Netlify https://www.netlify.com › blog" [ref=f2e818] [cursor=pointer]:
+                  - /url: /goto?url=CAEShQEB6zswFR9LZ_D9-4pPG4Nxv83ke5OaJ0u6pxnb6wxhpYml9P9Mgztdu3FJz2NJCpAKUcGYgaHUvQ-GJI2eFIF4DdofF2thTxPOxODU5mnoGuR9p_4JDdKILTfPvf1SnOQ6zPiyQ07FbJpHwXIlAr_yeuy4yeF5bT8iQfzCdwW8iuJTrceo
+                  - heading "New Netlify projects are now private by default" [level=3] [ref=f2e819]
+                  - generic [ref=f2e335]:
+                    - generic [ref=f2e336]: Netlify
+                    - generic [ref=f2e338]: https://www.netlify.com › blog
+                - generic [ref=f2e340]:
+                  - generic [ref=f2e341]: ·
+                  - link "Traducir esta página" [ref=f2e820] [cursor=pointer]:
+                    - /url: https://www.netlify.com/blog/new-netlify-projects-are-now-private-by-default/
+                - button "Acerca de este resultado" [ref=f2e821] [cursor=pointer]
+              - generic [ref=f2e353]:
+                - generic [ref=f2e354]: 28 jul 2026 —
+                - generic [ref=f2e355]:
+                  - text: Starting today, new teams on
+                  - emphasis [ref=f2e356]: Netlify's
+                  - text: Credit-based plans get private projects by default. Existing teams can turn it on in team settings. Build ...
+            - generic [ref=f2e360]:
+              - generic [ref=f2e363]:
+                - link "Keep projects private by default with project visibility Netlify https://www.netlify.com › 2026-..." [ref=f2e822] [cursor=pointer]:
+                  - /url: /goto?url=CAEShQEB6zswFRh2fMxVi5bfXRNqoOFIyD21tcdOcmpqyPMD0GpBHeiKVZwW_DGHVH7HCERq2iVo3kXEMi60H1KQnq4cWzNmPBs5vE0Q4TPNuooRGKNayni0ee2PmRmUX5MkLmkhjaPRrvPsXiAYjOetXOuyt3h9xZvVFe7k0lrhzKmtf3jttHGT
+                  - heading "Keep projects private by default with project visibility" [level=3] [ref=f2e823]
+                  - generic [ref=f2e372]:
+                    - generic [ref=f2e373]: Netlify
+                    - generic [ref=f2e375]: https://www.netlify.com › 2026-...
+                - generic [ref=f2e377]:
+                  - generic [ref=f2e378]: ·
+                  - link "Traducir esta página" [ref=f2e824] [cursor=pointer]:
+                    - /url: https://www.netlify.com/changelog/2026-07-28-start-with-private-project-urls/
+                - button "Acerca de este resultado" [ref=f2e825] [cursor=pointer]
+              - generic [ref=f2e390]:
+                - generic [ref=f2e391]: 28 jul 2026 —
+                - generic [ref=f2e392]:
+                  - text: Starting defaults. Starting today, all new
+                  - emphasis [ref=f2e393]: Netlify
+                  - text: teams on a Free, Personal, or Pro plan will have their projects set to private by default.
+            - generic [ref=f2e399]:
+              - generic [ref=f2e402]:
+                - link "How to disable a project in Netlify (Account Manage) YouTube · Tutorial Toolkit Más de 350 visualizaciones · hace 11 meses" [ref=f2e826] [cursor=pointer]:
+                  - /url: /goto?url=CAESYwHrOzAVEPN48BYmOk9fcnV7mpNXWRkQXdnmKf4MhvE_MoJXp1nos_MNToMnizYAknw-tEl8FwQjNeufhoGdCUc68UNYFHBLFsNBCp4kAjzHnigd3JSm-2UnxcJKrtLTJ73pEw
+                  - heading "How to disable a project in Netlify (Account Manage)" [level=3] [ref=f2e827]
+                  - generic [ref=f2e411]:
+                    - generic [ref=f2e412]: YouTube · Tutorial Toolkit
+                    - generic [ref=f2e414]: Más de 350 visualizaciones · hace 11 meses
+                - button "Acerca de este resultado" [ref=f2e828] [cursor=pointer]
+              - generic [ref=f2e425]:
+                - link "How to disable a project in Netlify (Account Manage) por Tutorial Toolkit en YouTube. Reproducir en YouTube. 2:53" [ref=f2e829] [cursor=pointer]:
+                  - /url: /goto?url=CAESYwHrOzAVEPN48BYmOk9fcnV7mpNXWRkQXdnmKf4MhvE_MoJXp1nos_MNToMnizYAknw-tEl8FwQjNeufhoGdCUc68UNYFHBLFsNBCp4kAjzHnigd3JSm-2UnxcJKrtLTJ73pEw
+                  - generic [ref=f2e427]: 2:53
+                - generic [ref=f2e438]: ... project, remove project from netlify hosting temporarily, control hosting settings in netlify project, disable netlify project step by step.
+            - generic [ref=f2e443]:
+              - generic [ref=f2e446]:
+                - 'link "Disable form detection available in the Netlify UI - #5 by stvad Netlify Support Forums https://answers.netlify.com › disa..." [ref=f2e831] [cursor=pointer]':
+                  - /url: /goto?url=CAESkAEB6zswFR5AJm4nJGhSBslK_0KDeatJOi-3OT-iKzv4eeckdwwgZ-oZxGOhIzwblCeuCHmXpZfeBSuzHbxc4PyE7Tl28fNp6cjD215TbsQo4EGQYbt0MvJeBrbMLhzNgrwmrie1lI2G-Z5DzHfOsNmcOnAfvWq0JhtCymXiyMXLnxgDMpM8s8OU6ZztR8XF2L4
+                  - 'heading "Disable form detection available in the Netlify UI - #5 by stvad" [level=3] [ref=f2e832]'
+                  - generic [ref=f2e455]:
+                    - generic [ref=f2e456]: Netlify Support Forums
+                    - generic [ref=f2e458]: https://answers.netlify.com › disa...
+                - generic [ref=f2e460]:
+                  - generic [ref=f2e461]: ·
+                  - link "Traducir esta página" [ref=f2e833] [cursor=pointer]:
+                    - /url: https://answers.netlify.com/t/disable-form-detection-available-in-the-netlify-ui/22590/5
+                - button "Acerca de este resultado" [ref=f2e834] [cursor=pointer]
+              - generic [ref=f2e473]:
+                - generic [ref=f2e474]: 14 sept 2020 —
+                - generic [ref=f2e475]:
+                  - text: If you are not using
+                  - emphasis [ref=f2e476]: Netlify
+                  - text: Forms to handle form submissions for your site, you can now
+                  - emphasis [ref=f2e477]: disable
+                  - text: the form detection feature in the
+                  - emphasis [ref=f2e478]: Netlify
+                  - text: ...
+              - generic [ref=f2e479]: "Falta: hud? ‎variant= ‎public"
+            - generic [ref=f2e484]:
+              - generic [ref=f2e487]:
+                - link "Troubleshoot the Netlify Drawer Netlify Docs https://docs.netlify.com › deploy" [ref=f2e835] [cursor=pointer]:
+                  - /url: /goto?url=CAESowEB6zswFZfbQX11l7bsDlAivT-DtKS3Sv3FXtShUzibRKVlo6FZeV_3FNfMAu2-H818RIoMyXQZSEvFwISOMfqXdR2KNeUFgZ62g9hABoQfFqr3mk-_-2YZjGR11s5PuAy62t7RkEg5G5RZR77D3b05u2AeupbNuPZH5ynfw3TadOQZJo_A-49tRXYB-rN90L9q8DyfGH4vXiedAWsW02KRfQrm
+                  - heading "Troubleshoot the Netlify Drawer" [level=3] [ref=f2e836]
+                  - generic [ref=f2e496]:
+                    - generic [ref=f2e497]: Netlify Docs
+                    - generic [ref=f2e499]: https://docs.netlify.com › deploy
+                - generic [ref=f2e501]:
+                  - generic [ref=f2e502]: ·
+                  - link "Traducir esta página" [ref=f2e837] [cursor=pointer]:
+                    - /url: https://docs.netlify.com/deploy/review-deploys/netlify-drawer-for-feedback/troubleshoot-the-netlify-drawer/
+                - button "Acerca de este resultado" [ref=f2e838] [cursor=pointer]
+              - generic [ref=f2e514]:
+                - generic [ref=f2e515]: 14 jul 2025 —
+                - generic [ref=f2e516]:
+                  - text: To
+                  - emphasis [ref=f2e517]: remove
+                  - text: the
+                  - emphasis [ref=f2e518]: Netlify
+                  - text: Drawer from your site, go to Project configuration > Build & deploy > Continuous deployment > Collaboration tools, select ...
+              - generic [ref=f2e519]: "Falta: hud? ‎variant="
+            - generic [ref=f2e524]:
+              - generic [ref=f2e527]:
+                - link "How to turn off Netlify Drawer on all our sites Netlify Support Forums https://answers.netlify.com › ho..." [ref=f2e839] [cursor=pointer]:
+                  - /url: /goto?url=CAESiwEB6zswFTi_nkU3Z3eVlmGOb9G_R83BDP5pnMJsPREl9dXE3gXUW8wDvdvcChGWSBU-KN6iuTeTXgS_4errB4z17HIEtxPT3ZZBsa0eUqvSODl0YUedcA1BxSs05qkgGczmWZcZrKPNh_xsKn-ZDpqb3nrPcCk3C9o5U3TMTc3Ime6tz3el5u3_UrW4
+                  - heading "How to turn off Netlify Drawer on all our sites" [level=3] [ref=f2e840]
+                  - generic [ref=f2e536]:
+                    - generic [ref=f2e537]: Netlify Support Forums
+                    - generic [ref=f2e539]: https://answers.netlify.com › ho...
+                - generic [ref=f2e541]:
+                  - generic [ref=f2e542]: ·
+                  - link "Traducir esta página" [ref=f2e841] [cursor=pointer]:
+                    - /url: https://answers.netlify.com/t/how-to-turn-off-netlify-drawer-on-all-our-sites/52768
+                - button "Acerca de este resultado" [ref=f2e842] [cursor=pointer]
+              - generic [ref=f2e554]:
+                - generic [ref=f2e555]: 2 mar 2022 —
+                - generic [ref=f2e556]:
+                  - text: I want to turn of
+                  - emphasis [ref=f2e557]: netlify
+                  - text: Drawer for all as previews are
+                  - emphasis [ref=f2e558]: public
+                  - text: and we keep getting spam. How can I do this without spending the rest of ...
+              - generic [ref=f2e559]: "Falta: hud? ‎variant="
+        - navigation [ref=f2e563]:
+          - heading "Navegación de páginas" [level=1] [ref=f2e843]
+          - text: "1"
+          - link "Page 2" [ref=f2e844] [cursor=pointer]:
+            - /url: /search?q=Netlify+hud?variant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&ei=2w-QaviuG5Kdp84Pq6OekQw&start=10&sa=N&sstk=AS6-VmINB7gh4h1UnxfkmJkh_hC_ay_xNSeheAjTd047RZdKVB_bmYt3HG8QjRFG_ouiClanlaLG4aLy-fV8kyoqQDOqYoETn0qL_Q&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ8tMDegQILxAE
+            - text: "2"
+          - link "Page 3" [ref=f2e845] [cursor=pointer]:
+            - /url: /search?q=Netlify+hud?variant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&ei=2w-QaviuG5Kdp84Pq6OekQw&start=20&sa=N&sstk=AS6-VmINB7gh4h1UnxfkmJkh_hC_ay_xNSeheAjTd047RZdKVB_bmYt3HG8QjRFG_ouiClanlaLG4aLy-fV8kyoqQDOqYoETn0qL_Q&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ8tMDegQILxAG
+            - text: "3"
+          - link "Page 4" [ref=f2e846] [cursor=pointer]:
+            - /url: /search?q=Netlify+hud?variant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&ei=2w-QaviuG5Kdp84Pq6OekQw&start=30&sa=N&sstk=AS6-VmINB7gh4h1UnxfkmJkh_hC_ay_xNSeheAjTd047RZdKVB_bmYt3HG8QjRFG_ouiClanlaLG4aLy-fV8kyoqQDOqYoETn0qL_Q&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ8tMDegQILxAI
+            - text: "4"
+          - link "Page 5" [ref=f2e847] [cursor=pointer]:
+            - /url: /search?q=Netlify+hud?variant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&ei=2w-QaviuG5Kdp84Pq6OekQw&start=40&sa=N&sstk=AS6-VmINB7gh4h1UnxfkmJkh_hC_ay_xNSeheAjTd047RZdKVB_bmYt3HG8QjRFG_ouiClanlaLG4aLy-fV8kyoqQDOqYoETn0qL_Q&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ8tMDegQILxAK
+            - text: "5"
+          - link "Page 6" [ref=f2e848] [cursor=pointer]:
+            - /url: /search?q=Netlify+hud?variant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&ei=2w-QaviuG5Kdp84Pq6OekQw&start=50&sa=N&sstk=AS6-VmINB7gh4h1UnxfkmJkh_hC_ay_xNSeheAjTd047RZdKVB_bmYt3HG8QjRFG_ouiClanlaLG4aLy-fV8kyoqQDOqYoETn0qL_Q&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ8tMDegQILxAM
+            - text: "6"
+          - link "Page 7" [ref=f2e849] [cursor=pointer]:
+            - /url: /search?q=Netlify+hud?variant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&ei=2w-QaviuG5Kdp84Pq6OekQw&start=60&sa=N&sstk=AS6-VmINB7gh4h1UnxfkmJkh_hC_ay_xNSeheAjTd047RZdKVB_bmYt3HG8QjRFG_ouiClanlaLG4aLy-fV8kyoqQDOqYoETn0qL_Q&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ8tMDegQILxAO
+            - text: "7"
+          - link "Page 8" [ref=f2e850] [cursor=pointer]:
+            - /url: /search?q=Netlify+hud?variant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&ei=2w-QaviuG5Kdp84Pq6OekQw&start=70&sa=N&sstk=AS6-VmINB7gh4h1UnxfkmJkh_hC_ay_xNSeheAjTd047RZdKVB_bmYt3HG8QjRFG_ouiClanlaLG4aLy-fV8kyoqQDOqYoETn0qL_Q&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ8tMDegQILxAQ
+            - text: "8"
+          - link "Page 9" [ref=f2e851] [cursor=pointer]:
+            - /url: /search?q=Netlify+hud?variant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&ei=2w-QaviuG5Kdp84Pq6OekQw&start=80&sa=N&sstk=AS6-VmINB7gh4h1UnxfkmJkh_hC_ay_xNSeheAjTd047RZdKVB_bmYt3HG8QjRFG_ouiClanlaLG4aLy-fV8kyoqQDOqYoETn0qL_Q&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ8tMDegQILxAS
+            - text: "9"
+          - link "Page 10" [ref=f2e852] [cursor=pointer]:
+            - /url: /search?q=Netlify+hud?variant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&ei=2w-QaviuG5Kdp84Pq6OekQw&start=90&sa=N&sstk=AS6-VmINB7gh4h1UnxfkmJkh_hC_ay_xNSeheAjTd047RZdKVB_bmYt3HG8QjRFG_ouiClanlaLG4aLy-fV8kyoqQDOqYoETn0qL_Q&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ8tMDegQILxAU
+            - text: "10"
+          - heading [level=2] [ref=f2e853]:
+            - link "Siguiente" [ref=f2e854] [cursor=pointer]:
+              - /url: /search?q=Netlify+hud?variant%3Dpublic+disable&sca_esv=a4ac375be92b09b0&ei=2w-QaviuG5Kdp84Pq6OekQw&start=10&sa=N&sstk=AS6-VmINB7gh4h1UnxfkmJkh_hC_ay_xNSeheAjTd047RZdKVB_bmYt3HG8QjRFG_ouiClanlaLG4aLy-fV8kyoqQDOqYoETn0qL_Q&ved=2ahUKEwi4iNmvy8CWAxWSzskDHauRJ8IQ8NMDegQILxAW
+        - navigation
+    - contentinfo [ref=f2e589]:
+      - heading "Enlaces a pie de página" [level=1] [ref=f2e855]
+      - generic [ref=f2e856]:
+        - generic [ref=f2e858]:
+          - text: España
+          - generic [ref=f2e860]:
+            - button "28029, Madrid - Según tu dirección IP" [ref=f2e862] [cursor=pointer]:
+              - generic [ref=f2e863]: 28029, Madrid
+              - generic [ref=f2e865]:
+                - text: "-"
+                - generic [ref=f2e866]: Según tu dirección IP
+            - text: "-"
+            - button "Actualizar ubicación" [ref=f2e868] [cursor=pointer]
+        - generic [ref=f2e871]:
+          - link "Ayuda" [ref=f2e872] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=es&fg=1
+          - link "Enviar comentarios" [ref=f2e873] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacidad" [ref=f2e874] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=es&fg=1
+          - link "Términos" [ref=f2e875] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=es&fg=1

@@ -1,0 +1,100 @@
+- generic [active] [ref=f11e1]:
+  - generic:
+    - generic:
+      - link "Saltar al contenido principal" [ref=f11e2] [cursor=pointer]
+      - link "Ayuda sobre la accesibilidad" [ref=f11e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=es
+  - generic [ref=f11e8]:
+    - search [ref=f11e9]:
+      - generic [ref=f11e11]:
+        - link "Ir a la página principal de Google" [ref=f11e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwjU9Yfky8CWAxX_5skDHecaOjEQPAgI
+        - generic [ref=f11e21]:
+          - generic [ref=f11e22]:
+            - combobox "Buscar" [ref=f11e25]: site:docs.netlify.com "ai-legible" site:docs.netlify.com "ai-legible"
+            - generic [ref=f11e26]:
+              - button "Borrar" [ref=f11e28] [cursor=pointer]
+              - generic [ref=f11e33]:
+                - button "Búsqueda por voz" [ref=f11e34] [cursor=pointer]
+                - button "Búsqueda por imágenes" [ref=f11e37] [cursor=pointer]
+          - button "Buscar" [ref=f11e40] [cursor=pointer]
+    - generic [ref=f11e45]:
+      - button "Configuración" [ref=f11e47] [cursor=pointer]
+      - button "Compartir" [ref=f11e53] [cursor=pointer]
+      - generic [ref=f11e59]:
+        - button "Aplicaciones de Google" [ref=f11e61] [cursor=pointer]
+        - link "Iniciar sesión" [ref=f11e66] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Adocs.netlify.com%2B%2522ai-legible%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=f11e68]:
+    - navigation [ref=f11e74]:
+      - generic [ref=f11e80]:
+        - list [ref=f11e81]:
+          - listitem [ref=f11e82]:
+            - link "Modo IA" [ref=f11e85] [cursor=pointer]:
+              - /url: /search?q=site:docs.netlify.com+ai-legible&sca_esv=a4ac375be92b09b0&udm=50&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjsSSLavHppj0xGkub9GRsO3K3EpIkgMaf-Z_yGej3aU_A_scBuzdAVXXnQW2-VWllzpngYY9XMgyl62HD7f57N9oBUyW&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjU9Yfky8CWAxX_5skDHecaOjEQ2J8OegQIDxAD
+          - listitem [ref=f11e89]:
+            - link "Todo" [disabled] [ref=f11e90]
+          - listitem [ref=f11e93]:
+            - link "Imágenes" [ref=f11e94] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&udm=2&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjsSSLavHppj0xGkub9GRsO3K3EpIkgMaf-Z_yGej3aU_A_scBuzdAVXXnQW2-VWllzpngYY9XMgyl62HD7f57N9oBUyW&q=site:docs.netlify.com+ai-legible&sa=X&ved=2ahUKEwjU9Yfky8CWAxX_5skDHecaOjEQtKgLegQIFRAB
+          - listitem [ref=f11e97]:
+            - link "Vídeos" [ref=f11e98] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&udm=7&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjsSSLavHppj0xGkub9GRsO3K3EpIkgMaf-Z_yGej3aU_A_scBuzdAVXXnQW2-VWllzpngYY9XMgyl62HD7f57N9oBUyW&q=site:docs.netlify.com+ai-legible&sa=X&ved=2ahUKEwjU9Yfky8CWAxX_5skDHecaOjEQtKgLegQIFBAB
+          - listitem [ref=f11e101]:
+            - link "Vídeos cortos" [ref=f11e102] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&udm=39&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjsSSLavHppj0xGkub9GRsO3K3EpIkgMaf-Z_yGej3aU_A_scBuzdAVXXnQW2-VWllzpngYY9XMgyl62HD7f57N9oBUyW&q=site:docs.netlify.com+ai-legible&sa=X&ved=2ahUKEwjU9Yfky8CWAxX_5skDHecaOjEQs6gLegQIEhAB
+          - listitem [ref=f11e105]:
+            - link "Noticias" [ref=f11e106] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&q=site:docs.netlify.com+ai-legible&tbm=nws&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjsSSLavHppj0xGkub9GRsO3K3EpIkgMaf-Z_yGej3aU_A_scBuzdAVXXnQW2-VWllzpngYY9XMgyl62HD7f57N9oBUyW&sa=X&ved=2ahUKEwjU9Yfky8CWAxX_5skDHecaOjEQ0pQJegQIExAB
+          - listitem [ref=f11e109]:
+            - link "Libros" [ref=f11e110] [cursor=pointer]:
+              - /url: /search?sca_esv=a4ac375be92b09b0&q=site:docs.netlify.com+ai-legible&udm=36&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDd8ABuXxNzQEi57SWOuuPdcURz3vM2j0dknRjZr5tESjVX0ozDC_MzSS9AaRCiJHvwFCq7nl2MSfdY_L_tMXzjsSSLavHppj0xGkub9GRsO3K3EpIkgMaf-Z_yGej3aU_A_scBuzdAVXXnQW2-VWllzpngYY9XMgyl62HD7f57N9oBUyW&sa=X&ved=2ahUKEwjU9Yfky8CWAxX_5skDHecaOjEQ0pQJegQIERAB
+          - listitem [ref=f11e113]:
+            - button [ref=f11e114] [cursor=pointer]:
+              - generic "Más filtros" [ref=f11e115]: Más
+        - button "Herramientas" [ref=f11e122] [cursor=pointer]
+    - heading "Resultados de la búsqueda" [level=1] [ref=f11e129]
+    - main [ref=f11e135]:
+      - generic [ref=f11e140]:
+        - heading "No se ha encontrado ningún resultado para site:docs.netlify.com \"ai-legible\"." [level=2] [ref=f11e141]
+        - text: Resultados de
+        - link "site:docs.netlify.com ai-legible" [ref=f11e142] [cursor=pointer]:
+          - /url: /search?sca_esv=a4ac375be92b09b0&q=site:docs.netlify.com+ai-legible&sa=X&ved=2ahUKEwjU9Yfky8CWAxX_5skDHecaOjEQgwN6BAgOEAE
+        - text: "(sin comillas):"
+      - generic [ref=f11e144]:
+        - generic [ref=f11e146]:
+          - heading [level=3] [ref=f11e147]:
+            - text: La búsqueda de
+            - emphasis [ref=f11e149]: site:docs.netlify.com ai-legible
+            - text: no obtuvo ningún resultado.
+          - paragraph [ref=f11e150]: "Sugerencias:"
+          - list [ref=f11e151]:
+            - listitem [ref=f11e152]: Comprueba que todas las palabras están escritas correctamente.
+            - listitem [ref=f11e153]: Intenta usar otras palabras.
+            - listitem [ref=f11e154]: Intenta usar palabras más generales.
+            - listitem [ref=f11e155]: Prueba a usar menos palabras.
+          - img "Una imagen de un yeti pescando algo en el hielo" [ref=f11e159]
+        - navigation
+      - navigation
+    - contentinfo [ref=f11e246]:
+      - heading "Enlaces a pie de página" [level=1] [ref=f11e247]
+      - generic [ref=f11e251]:
+        - generic [ref=f11e253]:
+          - text: España
+          - generic [ref=f11e255]:
+            - button "28029, Madrid - Según tu dirección IP" [ref=f11e257] [cursor=pointer]:
+              - generic [ref=f11e258]: 28029, Madrid
+              - generic [ref=f11e260]:
+                - text: "-"
+                - generic [ref=f11e261]: Según tu dirección IP
+            - text: "-"
+            - button "Actualizar ubicación" [ref=f11e263] [cursor=pointer]
+        - generic [ref=f11e266]:
+          - link "Ayuda" [ref=f11e267] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=es&fg=1
+          - link "Enviar comentarios" [ref=f11e268] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacidad" [ref=f11e269] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=es&fg=1
+          - link "Términos" [ref=f11e270] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=es&fg=1

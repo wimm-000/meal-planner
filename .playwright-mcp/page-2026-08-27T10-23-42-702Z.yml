@@ -1,0 +1,49 @@
+- main [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - link "Weekly Meal Planner home" [ref=f2e4] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f2e5]: Weekly Meal Planner
+    - generic [ref=f2e6]: Foundation
+  - region [ref=f2e7]:
+    - generic [ref=f2e8]:
+      - paragraph [ref=f2e9]: The table is being set
+      - heading [level=1] [ref=f2e10]:
+        - text: Plan the week. Shop once.
+        - emphasis [ref=f2e11]: Eat well.
+      - paragraph [ref=f2e12]: A focused home for weekly meals, reusable recipes, and a shopping list that stays useful after you edit it.
+    - generic "Weekly planner preview" [ref=f2e13]:
+      - generic [ref=f2e14]:
+        - generic [ref=f2e15]:
+          - generic [ref=f2e16]: This week
+          - strong [ref=f2e17]: August 24–30
+        - generic [ref=f2e18]: Ready for planning
+      - generic [ref=f2e20]:
+        - generic [ref=f2e21]:
+          - heading "Monday" [level=2] [ref=f2e22]
+          - list [ref=f2e23]:
+            - listitem [ref=f2e24]: Breakfast
+            - listitem [ref=f2e26]: Lentil salad
+            - listitem [ref=f2e28]: Chicken curry
+        - generic [ref=f2e30]:
+          - heading "Tuesday" [level=2] [ref=f2e31]
+          - list [ref=f2e32]:
+            - listitem [ref=f2e33]: Overnight oats
+            - listitem [ref=f2e35]: Lunch
+            - listitem [ref=f2e37]: Salmon bowl
+        - generic [ref=f2e39]:
+          - heading "Wednesday" [level=2] [ref=f2e40]
+          - list [ref=f2e41]:
+            - listitem [ref=f2e42]: Breakfast
+            - listitem [ref=f2e44]: Tomato toast
+            - listitem [ref=f2e46]: Dinner
+    - generic "Foundation status" [ref=f2e48]:
+      - generic [ref=f2e49]:
+        - term [ref=f2e50]: Framework
+        - definition [ref=f2e51]: React Router 7
+      - generic [ref=f2e52]:
+        - term [ref=f2e53]: Deployment
+        - definition [ref=f2e54]: Netlify serverless
+      - generic [ref=f2e55]:
+        - term [ref=f2e56]: Server rendering
+        - definition [ref=f2e57]: Ready
+    - paragraph [ref=f2e58]: Product features begin after this foundation checkpoint is reviewed.

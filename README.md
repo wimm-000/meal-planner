@@ -152,6 +152,7 @@ For v1:
 | [`MASTER_PROMPT.md`](./MASTER_PROMPT.md) | Full product and architecture brief used to start/guide agent work |
 | [`AGENTS.md`](./AGENTS.md) | Durable rules that coding agents should keep in context |
 | [`IMPLEMENTATION_PLAN.md`](./IMPLEMENTATION_PLAN.md) | Milestone-by-milestone implementation checklist |
+| [`docs/CURRENT_STATUS.md`](./docs/CURRENT_STATUS.md) | Current milestone, completed work, open items, and next-session handoff |
 | [`docs/PROJECT_REFERENCE.md`](./docs/PROJECT_REFERENCE.md) | Consolidated project decisions and reference document |
 
 ## Implementation roadmap
@@ -233,12 +234,13 @@ Included project-specific skills:
 - `.opencode/skills/react-router-7-framework/SKILL.md`
 - `.opencode/skills/meal-planner-architecture/SKILL.md`
 
-Supporting external skills should cover:
+Installed supporting skills live under `.agents/skills/` and are pinned in
+`skills-lock.json`:
 
-- React best practices
-- UX / web-design guidelines
-- frontend design
-- Drizzle best practices
+- `vercel-react-best-practices`
+- `web-design-guidelines`
+- `frontend-design`
+- `drizzle`
 
 ## Deployment
 

@@ -16,8 +16,8 @@ export default defineConfig({
         name: "Weekly Meal Planner",
         short_name: "Meal Planner",
         description: "Plan weekly meals, recipes, and shopping in one place.",
-        theme_color: "#fff1cb",
-        background_color: "#fff1cb",
+        theme_color: "#f1f6e9",
+        background_color: "#ffffff",
         display: "standalone",
         start_url: "/",
         icons: [

@@ -31,60 +31,60 @@ Use this together with:
 
 ## Repository and application setup
 
-- [ ] Create the React Router 7 project in **Framework Mode**
-- [ ] Enable TypeScript strict mode
-- [ ] Configure Vite
-- [ ] Install and configure Tailwind CSS
-- [ ] Configure project aliases/import conventions
-- [ ] Define initial folder/module structure
-- [ ] Add `.env.example`
-- [ ] Ensure secrets are never exposed to the browser
-- [ ] Add basic error boundary structure
-- [ ] Add basic loading/pending-state conventions
+- [x] Create the React Router 7 project in **Framework Mode**
+- [x] Enable TypeScript strict mode
+- [x] Configure Vite
+- [x] Install and configure Tailwind CSS
+- [x] Configure project aliases/import conventions
+- [x] Define initial folder/module structure
+- [x] Add `.env.example`
+- [x] Ensure secrets are never exposed to the browser
+- [x] Add basic error boundary structure
+- [x] Add basic loading/pending-state conventions
 
 ## Netlify
 
-- [ ] Configure the project for Netlify deployment
+- [x] Configure the project for Netlify deployment
 - [ ] Verify React Router server execution on Netlify
-- [ ] Define required environment variables
+- [x] Define required environment variables
 - [ ] Create a minimal deployment early
 - [ ] Verify server-side routes/actions work in deployed environment
 
 ## Quality tooling
 
-- [ ] Configure linting
-- [ ] Configure formatting
-- [ ] Configure type-check command
-- [ ] Configure Vitest
-- [ ] Configure React Testing Library
-- [ ] Configure Playwright
-- [ ] Add standard project commands for:
-  - [ ] dev
-  - [ ] build
-  - [ ] typecheck
-  - [ ] lint
-  - [ ] test
-  - [ ] test:e2e
+- [x] Configure linting
+- [x] Configure formatting
+- [x] Configure type-check command
+- [x] Configure Vitest
+- [x] Configure React Testing Library
+- [x] Configure Playwright
+- [x] Add standard project commands for:
+  - [x] dev
+  - [x] build
+  - [x] typecheck
+  - [x] lint
+  - [x] test
+  - [x] test:e2e
 
 ## Agent setup
 
-- [ ] Add `AGENTS.md`
-- [ ] Add `MASTER_PROMPT.md`
+- [x] Add `AGENTS.md`
+- [x] Add `MASTER_PROMPT.md`
 - [x] Add project-local skills directory
 - [x] Add `react-router-7-framework` skill
 - [x] Add `meal-planner-architecture` skill
-- [ ] Add/enable React best-practices skill
-- [ ] Add/enable UX/web-design guidelines skill
-- [ ] Add/enable frontend-design skill
-- [ ] Add/enable Drizzle best-practices skill
+- [x] Add/enable React best-practices skill
+- [x] Add/enable UX/web-design guidelines skill
+- [x] Add/enable frontend-design skill
+- [x] Add/enable Drizzle best-practices skill
 
 ## Definition of done
 
-- [ ] App runs locally
-- [ ] App builds successfully
+- [x] App runs locally
+- [x] App builds successfully
 - [ ] App deploys successfully to Netlify
-- [ ] Type checking passes
-- [ ] Test infrastructure is working
+- [x] Type checking passes
+- [x] Test infrastructure is working
 - [ ] Agent/project instructions are committed
 
 ---
