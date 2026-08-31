@@ -29,7 +29,11 @@ export function FoundationScreen({ serverReady }: { serverReady: boolean }) {
           />
           <span>Weekly Meal Planner</span>
         </a>
-        <span className="phase-label">Foundation</span>
+        <nav aria-label="Account">
+          <a className="phase-label" href="/login">
+            Sign in
+          </a>
+        </nav>
       </header>
 
       <section

@@ -1,8 +1,5 @@
+.playwright-mcp/
+.agents/skills/
 build/
-.netlify/
-.react-router/
+data/
 node_modules/
-package-lock.json
-playwright-report/
-test-results/
-*.md

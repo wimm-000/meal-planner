@@ -5,6 +5,7 @@ playwright-report/
 test-results/
 coverage/
 .netlify/
+data/*.db
 
 .env
 .env.*

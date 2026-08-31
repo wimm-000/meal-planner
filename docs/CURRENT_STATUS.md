@@ -1,8 +1,8 @@
 # Current Project Status
 
-Updated: 2026-08-27
+Updated: 2026-08-28
 Branch: `main`
-Last implementation commit: `7eb79dd Update color palette`
+Last implementation commit: `86677cb update config setup`
 
 ## Current Milestone
 
@@ -10,7 +10,7 @@ Milestone 0: Project Foundation - all local implementation and verification is
 complete. Netlify deployment verification and the final commit are deferred to
 a later deployment round.
 
-Milestone 1 database, authentication, and Space work has not started.
+Milestone 1 database and initial authentication slice is in progress.
 
 ## Last Completed
 
@@ -30,18 +30,28 @@ Milestone 1 database, authentication, and Space work has not started.
 - Installed project-scoped React, web-design, frontend-design, and Drizzle
   supporting skills with sources pinned in `skills-lock.json`.
 - Reconciled the Milestone 0 roadmap checkboxes against the repository.
+- Added a LibSQL/SQLite Drizzle database with the initial User, AuthSession,
+  Space, and SpaceMember schema and local migration workflow.
+- Added application-owned email/password authentication with hashed passwords,
+  opaque hashed session tokens, signup, login, logout, and protected app route.
+- Added idempotent personal-Space provisioning during signup.
+- Added an authentication E2E flow covering signup and personal-Space access.
+- Removed Better Auth and updated project architecture documentation to reflect
+  application-owned authentication.
 
 ## Verification
 
-The complete local Milestone 0 suite passed on 2026-08-27:
+The local foundation and initial authentication slice passed on 2026-08-28:
 
 - `npm run typecheck`
 - `npm run lint`
 - `npm run format:check`
 - `npm test` - 1 test passed
 - `npm run build`
-- `npm run test:e2e` - 2 tests passed across desktop and mobile Chromium
+- `npm run test:e2e` - 4 tests passed across desktop and mobile Chromium
 - `netlify build --offline`
+- `npm run db:migrate`
+- `npm run db:generate`
 
 The generated `build/client/manifest.webmanifest` was also inspected and uses
 `#f1f6e9` for `theme_color` and `#ffffff` for `background_color`.
@@ -74,16 +84,18 @@ were found.
 
 - Deploy the foundation to Netlify and verify SSR and server execution in the
   deployed environment.
-- Commit the Milestone 0 closeout changes when the deployment round is ready.
+- Create a Turso production database and run the initial migration against it.
+- Add explicit authorization helper tests and Space switching.
+- Add rate limiting, password reset, email verification, and account recovery
+  before treating authentication as production-ready.
 - Address the Vite `envFile` deprecation and React Router 8 future-flag warnings
   when doing so is useful and low risk.
 
 ## Next Recommended Task
 
-In a later deployment round, run `netlify login`, link or create the site,
-deploy the foundation, and verify that the home loader executes through the
-deployed Netlify server function. Then commit the Milestone 0 closeout and begin
-Milestone 1.
+Create/link the Turso production database, configure production environment
+variables, and run the initial migration. Then add authorization tests and the
+active-Space switcher before starting Ingredients.
 
 ## Session Handoff Routine
 

@@ -34,7 +34,7 @@ Users should be able to:
 - Tailwind CSS
 - Turso
 - Drizzle ORM
-- Better Auth
+- Application-owned authentication
 - Netlify
 - PWA support
 
@@ -42,7 +42,9 @@ OpenCode with GPT-based models is the primary coding-agent workflow.
 
 ## Authentication and authorization
 
-Use Better Auth for authentication and session management.
+Use the application-owned authentication module for authentication and session
+management. Password hashes and opaque server sessions are stored in the
+database; plaintext passwords and raw session tokens are never persisted.
 
 There are two separate authorization concepts.
 
@@ -325,7 +327,7 @@ Deploy on Netlify.
 The architecture must remain compatible with:
 
 - React Router Framework Mode server execution;
-- Better Auth;
+- application-owned authentication;
 - Turso;
 - Drizzle.
 
@@ -385,7 +387,7 @@ Recipe URL import, richer family invitations, deeper PWA polish, and system-admi
 
 Resolve these only when the relevant milestone needs them:
 
-- Better Auth providers;
+- password reset, email verification, and rate-limiting strategy;
 - active-Space persistence strategy;
 - UI primitive/component library;
 - validation library;
@@ -394,7 +396,7 @@ Resolve these only when the relevant milestone needs them:
 - Shopping List regeneration merge semantics;
 - Recipe image storage vs remote URLs;
 - whether HTML extraction adds enough value after JSON-LD;
-- whether Better Auth Organizations should assist with invitations;
+- whether invitations should be application-owned or use an external service;
 - exact owner/admin/member permission matrix.
 
 Prefer the simplest solution that satisfies the current milestone and explain significant trade-offs before changing architecture.

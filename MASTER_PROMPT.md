@@ -33,7 +33,7 @@ Use:
 - Tailwind CSS
 - Turso
 - Drizzle ORM
-- Better Auth
+- Application-owned authentication
 - PWA support
 - Netlify for deployment
 
@@ -89,15 +89,17 @@ The application should feel like a cohesive application rather than a collection
 
 # 4. Users and Authentication
 
-Use **Better Auth**.
+Use application-owned email/password authentication and session management.
+Passwords must use a slow, salted password hash and sessions must use opaque
+random tokens whose hashes are stored server-side.
 
-Better Auth should initially handle:
+The application authentication module should initially handle:
 
 - users
 - authentication
 - sessions
-- account/provider management
-- password/security concerns where applicable
+- password hashing and verification
+- account creation and session management
 
 Do not create a custom authentication system.
 
@@ -247,7 +249,7 @@ Authorization must always be enforced on the server.
 
 Every loader/action accessing Space-owned resources must verify:
 
-1. the user has a valid Better Auth session;
+1. the user has a valid application session;
 2. the Space exists;
 3. the authenticated user belongs to the Space;
 4. their Space role permits the requested operation.
@@ -261,19 +263,19 @@ Authorization logic should not be duplicated throughout route modules.
 Design reusable helpers such as:
 
 ```ts
-requireUser()
-requireSpaceMember()
-requireSpaceRole()
-requireSpaceOwner()
+requireUser();
+requireSpaceMember();
+requireSpaceRole();
+requireSpaceOwner();
 ```
 
 The exact API should be proposed before implementation.
 
 ---
 
-# 10. Better Auth Organizations
+# 10. Membership Invitations
 
-Do not automatically make Family Spaces Better Auth Organizations.
+Do not automatically make Family Spaces an external organization construct.
 
 Our application domain should remain based around:
 
@@ -282,7 +284,7 @@ Space
 SpaceMember
 ```
 
-Evaluate the Better Auth Organization plugin when we implement:
+Evaluate invitation and membership mechanisms when we implement:
 
 - invitations
 - invitation acceptance
@@ -290,7 +292,7 @@ Evaluate the Better Auth Organization plugin when we implement:
 - removal of members
 - role changes
 
-If Better Auth Organizations can remove meaningful complexity without coupling our domain unnecessarily, propose how they could integrate.
+Keep the implementation compatible with the existing Space and SpaceMember domain.
 
 Discuss this before implementation.
 
@@ -860,7 +862,7 @@ Architecture and dependencies should be compatible with:
 
 - React Router 7 Framework Mode;
 - Netlify server execution;
-- Better Auth;
+- application-owned authentication;
 - Turso.
 
 Avoid deployment assumptions based on Next.js or Vercel.
@@ -884,7 +886,7 @@ Initial entities to evaluate include:
 
 ```text
 User
-Session / Better Auth tables
+AuthSession
 Space
 SpaceMember
 
@@ -942,7 +944,7 @@ Every Space-owned resource must be accessed through Space-aware queries.
 Avoid patterns like:
 
 ```ts
-getRecipe(recipeId)
+getRecipe(recipeId);
 ```
 
 if they allow authorization mistakes.
@@ -952,8 +954,8 @@ Prefer APIs that make Space ownership explicit, such as conceptually:
 ```ts
 getRecipe({
   recipeId,
-  spaceId
-})
+  spaceId,
+});
 ```
 
 or domain services that already operate in an authorized Space context.
@@ -1265,7 +1267,7 @@ Security must be considered from the beginning.
 
 Important areas include:
 
-- Better Auth session validation;
+- application session validation;
 - Space authorization;
 - CSRF/security expectations of mutations;
 - external URL fetching;
@@ -1429,7 +1431,7 @@ Do not generate all migrations yet.
 
 Explain:
 
-- Better Auth responsibilities;
+- application authentication responsibilities;
 - application admin role;
 - Space roles;
 - active Space;
@@ -1522,7 +1524,7 @@ Explain how:
 
 ```text
 React Router
-Better Auth
+Application authentication
 Turso
 Netlify
 ```

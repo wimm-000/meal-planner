@@ -108,13 +108,13 @@ Conceptually prefer:
 getRecipe({
   recipeId,
   spaceId,
-})
+});
 ```
 
 or an already-authorized Space context over:
 
 ```ts
-getRecipe(recipeId)
+getRecipe(recipeId);
 ```
 
 when the latter could make cross-Space access easy to introduce accidentally.
@@ -137,19 +137,19 @@ The exact persistence mechanism for active Space is an implementation decision, 
 
 ## Authentication responsibilities
 
-Use Better Auth for:
+Use the application-owned authentication module for:
 
 - authentication;
 - users;
 - sessions;
-- account/provider management;
-- password/security concerns where applicable.
+- account management;
+- password hashing and session management.
 
 Do not implement custom authentication.
 
 Application-domain authorization remains explicit in the Space / SpaceMember model.
 
-Better Auth Organizations may be evaluated later for invitation/membership mechanics, but do not replace the core Space domain with Better Auth Organizations without architectural discussion.
+Invitation mechanisms may be evaluated later, but must not replace the core Space domain without architectural discussion.
 
 ## Weekly planning model
 
@@ -466,7 +466,7 @@ Never allow removal of the last owner of a Family Space without an ownership-tra
 
 Do not silently lock these down unless the relevant milestone requires them:
 
-- exact Better Auth providers;
+- password reset, email verification, and rate-limiting strategy;
 - active-Space persistence mechanism;
 - UI primitive/component library;
 - validation library;
@@ -475,7 +475,7 @@ Do not silently lock these down unless the relevant milestone requires them:
 - exact Shopping List regeneration merge semantics;
 - Recipe image storage vs remote URLs;
 - whether HTML extraction is worth implementing after JSON-LD;
-- whether Better Auth Organizations should assist with family invitations;
+- whether an external service should assist with family invitations;
 - exact owner/admin/member permission matrix.
 
 When one of these becomes necessary, propose the simplest suitable option and explain trade-offs.

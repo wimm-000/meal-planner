@@ -27,7 +27,7 @@ The app is designed to make weekly meal planning fast and frictionless:
 - **Tailwind CSS**
 - **Turso**
 - **Drizzle ORM**
-- **Better Auth**
+- **Application-owned authentication**
 - **Netlify**
 - **PWA**
 
@@ -147,13 +147,13 @@ For v1:
 
 ## Project documents
 
-| File | Purpose |
-| --- | --- |
-| [`MASTER_PROMPT.md`](./MASTER_PROMPT.md) | Full product and architecture brief used to start/guide agent work |
-| [`AGENTS.md`](./AGENTS.md) | Durable rules that coding agents should keep in context |
-| [`IMPLEMENTATION_PLAN.md`](./IMPLEMENTATION_PLAN.md) | Milestone-by-milestone implementation checklist |
-| [`docs/CURRENT_STATUS.md`](./docs/CURRENT_STATUS.md) | Current milestone, completed work, open items, and next-session handoff |
-| [`docs/PROJECT_REFERENCE.md`](./docs/PROJECT_REFERENCE.md) | Consolidated project decisions and reference document |
+| File                                                       | Purpose                                                                 |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------- |
+| [`MASTER_PROMPT.md`](./MASTER_PROMPT.md)                   | Full product and architecture brief used to start/guide agent work      |
+| [`AGENTS.md`](./AGENTS.md)                                 | Durable rules that coding agents should keep in context                 |
+| [`IMPLEMENTATION_PLAN.md`](./IMPLEMENTATION_PLAN.md)       | Milestone-by-milestone implementation checklist                         |
+| [`docs/CURRENT_STATUS.md`](./docs/CURRENT_STATUS.md)       | Current milestone, completed work, open items, and next-session handoff |
+| [`docs/PROJECT_REFERENCE.md`](./docs/PROJECT_REFERENCE.md) | Consolidated project decisions and reference document                   |
 
 ## Implementation roadmap
 
@@ -248,7 +248,7 @@ Target deployment platform: **Netlify**
 
 Database: **Turso**
 
-Authentication: **Better Auth**
+Authentication: **Application-owned email/password authentication**
 
 The deployment architecture should be verified early with a minimal React Router Framework Mode deployment before feature work grows.
 

@@ -10,6 +10,9 @@
     "dev": "react-router dev",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -17,7 +20,9 @@
     "typecheck": "react-router typegen && tsc --noEmit"
   },
   "dependencies": {
+    "@libsql/client": "^0.17.4",
     "@react-router/node": "^7.18.2",
+    "drizzle-orm": "^0.45.2",
     "isbot": "^5.1.36",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
@@ -35,6 +40,8 @@
     "@types/node": "^24.12.0",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
+    "dotenv": "^17.4.2",
+    "drizzle-kit": "^0.31.10",
     "eslint": "^9.39.5",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react-hooks": "^7.1.1",

@@ -157,7 +157,7 @@ Do not expose stack traces or sensitive server details to the browser.
 
 ## Server/client boundaries
 
-Keep secrets, database clients, Better Auth server configuration, privileged authorization, and external URL fetching in server-only modules.
+Keep secrets, database clients, application authentication configuration, privileged authorization, and external URL fetching in server-only modules.
 
 Do not import server-only modules into browser bundles.
 
@@ -170,10 +170,10 @@ Every loader/action that reads or mutates Space-owned data must use the project'
 Expected conceptual helpers include:
 
 ```ts
-requireUser()
-requireSpaceMember()
-requireSpaceRole()
-requireSpaceOwner()
+requireUser();
+requireSpaceMember();
+requireSpaceRole();
+requireSpaceOwner();
 ```
 
 Never rely on:
@@ -264,8 +264,8 @@ Do not default to:
 
 ```ts
 useEffect(() => {
-  fetch("/api/...")
-}, [])
+  fetch("/api/...");
+}, []);
 ```
 
 for route data.

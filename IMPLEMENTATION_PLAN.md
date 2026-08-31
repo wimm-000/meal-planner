@@ -96,28 +96,28 @@ This milestone establishes the security and tenancy model before any meal-planni
 ## Turso + Drizzle
 
 - [ ] Create Turso database
-- [ ] Configure database connection
-- [ ] Configure Drizzle ORM
-- [ ] Configure Drizzle migrations
-- [ ] Establish migration workflow
-- [ ] Verify migrations locally and against Turso
+- [x] Configure database connection
+- [x] Configure Drizzle ORM
+- [x] Configure Drizzle migrations
+- [x] Establish migration workflow
+- [x] Verify migrations locally
 
-## Better Auth
+## Application authentication
 
-- [ ] Install Better Auth
-- [ ] Configure Better Auth with the chosen authentication method(s)
-- [ ] Add Better Auth database tables
-- [ ] Integrate session handling with React Router
-- [ ] Create login flow
-- [ ] Create signup flow
-- [ ] Create logout flow
-- [ ] Add protected application layout
-- [ ] Add session-aware loaders
+- [x] Add application-owned email/password authentication
+- [x] Add password hashing and verification
+- [x] Add server-side session handling with opaque tokens
+- [x] Integrate session handling with React Router
+- [x] Create login flow
+- [x] Create signup flow
+- [x] Create logout flow
+- [x] Add protected application layout
+- [x] Add session-aware loaders
 
 ## System roles
 
-- [ ] Add system-level role support:
-  - [ ] `user`
+- [x] Add system-level role support:
+  - [x] `user`
   - [ ] `admin`
 - [ ] Keep system roles separate from Space roles
 
@@ -536,8 +536,7 @@ Implement incrementally.
 
 ## Invitation architecture
 
-- [ ] Re-evaluate Better Auth Organization plugin specifically for invitations/membership management
-- [ ] Decide between selective Better Auth Organization capabilities or application-owned invitations
+- [ ] Decide on application-owned invitation and membership implementation
 - [ ] Keep `Space` / `SpaceMember` as the application domain model
 
 ## Family Space management
@@ -781,7 +780,7 @@ The following can safely follow the core MVP:
 
 # Decisions to Make During Implementation
 
-- [ ] Authentication providers for Better Auth
+- [ ] Password reset, email verification, and rate-limiting strategy
 - [ ] Exact active-Space persistence strategy
 - [ ] UI primitive/component library
 - [ ] Validation library, if any
@@ -790,7 +789,6 @@ The following can safely follow the core MVP:
 - [ ] Exact Shopping List regeneration semantics
 - [ ] Recipe image storage vs remote image URLs
 - [ ] Whether HTML recipe extraction is worth implementing after JSON-LD
-- [ ] Whether Better Auth Organizations should help with family invitations
 - [ ] Exact owner/admin/member permission matrix
 
 ---
@@ -803,7 +801,7 @@ Before writing feature code:
 
 1. inspect the current repository;
 2. propose the initial project structure;
-3. verify current React Router 7 / Netlify / Better Auth / Drizzle compatibility using official documentation where needed;
+3. verify current React Router 7 / Netlify / application-authentication / Drizzle compatibility using official documentation where needed;
 4. install only the dependencies required for the foundation;
 5. establish lint/typecheck/test/build commands;
 6. deploy the minimal application to Netlify;

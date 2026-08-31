@@ -9,7 +9,7 @@
 - Tailwind CSS
 - Turso
 - Drizzle ORM
-- Better Auth
+- Application-owned authentication
 - Netlify
 - Installable PWA
 
@@ -42,8 +42,12 @@
 
 ## Authentication and Authorization
 
-- Use Better Auth for authentication and session management.
-- Do not implement custom authentication.
+- Use the application's server-side authentication module for email/password
+  authentication and session management.
+- Store password hashes, never plaintext passwords. Store only hashed opaque
+  session tokens.
+- Treat password reset, email verification, rate limiting, and account recovery
+  as explicit future security work.
 - Keep application-level admin permissions separate from Space membership permissions.
 - Authorization must be enforced in loaders/actions and other server-side entry points.
 - Prefer shared authorization helpers such as:
