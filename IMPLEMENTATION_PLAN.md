@@ -85,7 +85,7 @@ Use this together with:
 - [ ] App deploys successfully to Netlify
 - [x] Type checking passes
 - [x] Test infrastructure is working
-- [ ] Agent/project instructions are committed
+- [x] Agent/project instructions are committed
 
 ---
 
@@ -95,7 +95,7 @@ This milestone establishes the security and tenancy model before any meal-planni
 
 ## Turso + Drizzle
 
-- [ ] Create Turso database
+- [x] Create Turso database
 - [x] Configure database connection
 - [x] Configure Drizzle ORM
 - [x] Configure Drizzle migrations
@@ -118,57 +118,57 @@ This milestone establishes the security and tenancy model before any meal-planni
 
 - [x] Add system-level role support:
   - [x] `user`
-  - [ ] `admin`
-- [ ] Keep system roles separate from Space roles
+  - [x] `admin`
+- [x] Keep system roles separate from Space roles
 
 ## Spaces
 
-- [ ] Add `Space` table
-- [ ] Add Space type:
-  - [ ] `personal`
-  - [ ] `family`
-- [ ] Add `SpaceMember` table
-- [ ] Add membership roles:
-  - [ ] `owner`
-  - [ ] `admin`
-  - [ ] `member`
-- [ ] Add unique constraint for `(spaceId, userId)`
-- [ ] Add appropriate indexes
-- [ ] Define deletion/cascade rules
+- [x] Add `Space` table
+- [x] Add Space type:
+  - [x] `personal`
+  - [x] `family`
+- [x] Add `SpaceMember` table
+- [x] Add membership roles:
+  - [x] `owner`
+  - [x] `admin`
+  - [x] `member`
+- [x] Add unique constraint for `(spaceId, userId)`
+- [x] Add appropriate indexes
+- [x] Define deletion/cascade rules
 
 ## Personal Space provisioning
 
-- [ ] Automatically create a personal Space for a new user
-- [ ] Add the user as `owner`
-- [ ] Ensure provisioning is idempotent
-- [ ] Test account creation + personal Space provisioning
+- [x] Automatically create a personal Space for a new user
+- [x] Add the user as `owner`
+- [x] Ensure provisioning is idempotent
+- [x] Test account creation + personal Space provisioning
 
 ## Active Space
 
-- [ ] Decide how active Space is represented in URLs/session/preferences
-- [ ] Implement active Space resolution
-- [ ] Add Space switcher UI
-- [ ] Verify active Space membership server-side
-- [ ] Provide sensible default Space selection
-- [ ] Handle users belonging to multiple Spaces
+- [x] Decide how active Space is represented in URLs/session/preferences
+- [x] Implement active Space resolution
+- [x] Add Space switcher UI
+- [x] Verify active Space membership server-side
+- [x] Provide sensible default Space selection
+- [x] Handle users belonging to multiple Spaces
 
 ## Authorization helpers
 
-- [ ] `requireUser()`
-- [ ] `requireSpaceMember()`
-- [ ] `requireSpaceRole()`
-- [ ] `requireSpaceOwner()`
+- [x] `requireUser()`
+- [x] `requireSpaceMember()`
+- [x] `requireSpaceRole()`
+- [x] `requireSpaceOwner()`
 - [ ] Add shared authorization error handling
-- [ ] Add tests for role/permission behavior
-- [ ] Verify no loader/action trusts client-side permissions
+- [x] Add tests for role/permission behavior
+- [x] Verify no loader/action trusts client-side permissions
 
 ## Definition of done
 
-- [ ] User can sign up, log in and log out
-- [ ] Every user receives a personal Space
-- [ ] User can switch between Spaces they belong to
-- [ ] Unauthorized Space access is blocked server-side
-- [ ] Authorization helpers are reusable by future features
+- [x] User can sign up, log in and log out
+- [x] Every user receives a personal Space
+- [x] User can switch between Spaces they belong to
+- [x] Unauthorized Space access is blocked server-side
+- [x] Authorization helpers are reusable by future features
 
 ---
 
