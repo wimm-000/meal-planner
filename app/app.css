@@ -94,6 +94,39 @@ a {
   background: var(--color-surface-header);
 }
 
+.app-header-actions,
+.space-switcher {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.space-switcher label {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.space-switcher select {
+  min-height: 44px;
+  max-width: min(42vw, 240px);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0 34px 0 10px;
+  color: var(--color-text);
+  background: var(--color-background);
+  font: inherit;
+}
+
+.space-switcher button {
+  min-height: 44px;
+}
+
+.space-switcher button:disabled,
+.space-switcher select:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -504,6 +537,36 @@ a {
     left: auto;
     max-width: 420px;
     text-align: left;
+  }
+}
+
+@media (max-width: 719px) {
+  .foundation-header {
+    align-items: flex-start;
+    gap: 16px;
+    padding-block: 14px;
+  }
+
+  .app-header-actions,
+  .space-switcher {
+    align-items: stretch;
+  }
+
+  .app-header-actions {
+    flex-direction: column;
+  }
+
+  .space-switcher {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+
+  .space-switcher label {
+    grid-column: 1 / -1;
+  }
+
+  .space-switcher select {
+    max-width: 50vw;
   }
 }
 

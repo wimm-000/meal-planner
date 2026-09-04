@@ -20,4 +20,9 @@ test("can create an account and receive a personal Space", async ({ page }) => {
 
   await expect(page).toHaveURL(/\/app$/);
   await expect(page.getByText("E2E Planner's Space")).toBeVisible();
+  await expect(page.getByLabel("Space")).toHaveValue(/.+/);
+
+  await page.getByRole("button", { name: "Switch" }).click();
+
+  await expect(page.getByText("E2E Planner's Space")).toBeVisible();
 });
